@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*font-family: 'Bebas Neue', cursive;*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+header .purple-banner {
+background-color: #f0f0f0;
+padding: 5%;
+display: flex;
+justify-content: space-between; 
+}
+
+/*bannner sin turno*/
+.purple-banner h2 {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 30px;
+    color: #ffffff;
+} 
+
+nav ul {
+list-style: none;
+display: flex;
+}
+    
+nav li {
+margin: 0 20px;
+}
+    
+nav a {
+text-decoration: none;
+color: #ffffff;
+}
+
+}
+body {
+    font-family:  'Poppins', sans-serif;
+    background-color: #3c5f99;
+}
+
+header {
+    background-image: url(/img/adn2.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 30vh;
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    width: 200px;
+}
+
+h1 p{
+    margin-left: 30px;
+    margin-bottom: 5%; 
+    font-family: poppins;
+    font-size: 3rem;
+    text-align: center;
+    background-color:#ffffff;
+    max-width: 3px;
+    line-height: 1;
+}
+header {
+  background-color: #ffff; 
+  padding: 40px;
+}
+
+h1 {
+  color: #f0f0f0;
+  font-family: 'raleway', sans-serif;
+  letter-spacing: 2px;
+}
+
+p {
+  color: #151f29; 
+  font-family: 'raleway', sans-serif;
+  letter-spacing: 7px;
+}
+.menu {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000; 
+}
+
+
+.header.container.navbar ul li{
+    position:absolute ;
+    float: right;
+}
+
+.menu .navbar ul li{
+    font-size: 10px;
+    padding: 10px;
+    color: #ffff;
+    display: block;
+}
+
+
+main {
+    display: flex;
+    gap: 2rem;
+    background-image: url(/img/Laboratory.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.categories {
+    width: 30%;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
+.studies {
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+}
+.category-list {
+    list-style-type: none;
+    padding: 0rem;
+}
+.category-button {
+    width: 100%;
+    text-align: left;
+    padding: 0.75rem;
+    margin-bottom: 0.75rem;
+    background-color: #2762c7;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: bold;
+}
+.category-button:hover {
+    background-color: #3b82f6;
+    color: #ffffff;
+}
+.category-button.active {
+    background-color: #2563eb;
+    color: #ffffff;
+}
+.study-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+.study-list li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #e5e7eb;
+}
+.study-list li:last-child {
+    border-bottom: none;
+}
+h2 {
+    color: #1f2937;
+    margin-bottom: 1rem;
+}
+h3 {
+    color: #2563eb;
+    margin-bottom: 1rem;
+}
+
+.footer-txt {
+    text-align: center; /* Centrar el texto del footer */
+    color: #333; /* Color del texto */
+    background-color: #3c5f99;
+  }

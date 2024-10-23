@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    background-color: #f0f0f0;
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.purple-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    color: #f6f6f6;
+    background-color:  #3c5f99;
+}
+
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav li{
+    margin: 0 20px;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+}
+
+header{
+    background-image: url(/img/adn2.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 30vh;
+    display: flex;
+    align-items: center;
+
+}
+
+header img{
+    width: 200px;
+}
+
+h1 p{
+    margin-left: 30px;
+    margin-bottom: 5%;
+    font-size: 3rem;
+    font-family: 'Poppins';
+    text-align: center;
+    background-color: #ffffff;
+    max-width: 3px;
+    line-height: 1;
+}
+
+header {
+    background-color: #ffff; 
+    padding: 40px;
+  }
+  
+  h1 {
+    color: #f0f0f0;
+    font-family: 'raleway', sans-serif;
+    letter-spacing: 2px;
+  }
+  
+  header p {
+    color: #151f29; 
+    font-family: 'raleway', sans-serif;
+    letter-spacing: 7px;
+  }
+  .menu {
+      position: relative;
+      top: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      justify-content: space-between;
+      z-index: 1000; 
+  }
+  
+  
+  .header.container.navbar ul li{
+      position:absolute ;
+      float: right;
+  }
+  
+  .menu .navbar ul li{
+      font-size: 10px;
+      padding: 10px;
+      color: #ffff;
+      display: block;
+  }
+
+  .table-container{
+    margin-bottom: 20px;
+  }
+
+  table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+
+  th{
+    background-color: #3c5f99;
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+    text-align: center;
+  }
+  .form-container{
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+  }
+
+  .form-container button{
+    margin: auto;
+  }
+
+  .map-container{
+    margin: auto;
+    text-align: center;
+  }
+
+  header h1{ /*color del nombre LAB*/
+    color: #ffffff;
+    margin-bottom: 20px;
+
+  }
+
+  p{
+    margin-bottom: 10px;
+    color: #151f29;
+
+  }
+
+  label{
+    margin-bottom: 10px;
+    font-weight: bold;
+
+  }
+
+  .form-container h1{ /*color de la ubicacion*/
+    color:#c0392b
+  }
+
+  input{
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+
+}
+
+button{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover{
+    background-color: #c0392b;
+}
+
+.info-labo{
+    background-color:  #3c5f99;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.info-labo a{
+  text-decoration: none;
+  color: white;
+}
+
+.footer-txt {
+  text-align: center; /* Centrar el texto del footer */
+  color: #333; /* Color del texto */
+  background-color: #3c5f99;
+}

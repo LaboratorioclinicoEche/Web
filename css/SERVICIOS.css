@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    background-color: #f0f0f0;
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.purple-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    color: #f6f6f6;
+    background-color:  #3c5f99;
+}
+
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav li{
+    margin: 0 20px;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+}
+
+header{
+    background-image: url(/img/adn2.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 30vh;
+    display: flex;
+    align-items: center;
+
+}
+
+header img{
+    width: 200px;
+}
+
+h1 p{
+    margin-left: 30px;
+    margin-bottom: 5%;
+    font-size: 3rem;
+    font-family: 'Poppins';
+    text-align: center;
+    background-color: #ffffff;
+    max-width: 3px;
+    line-height: 1;
+}
+
+header {
+    background-color: #ffff; 
+    padding: 40px;
+  }
+  
+  h1 {
+    color: #f0f0f0;
+    font-family: 'raleway', sans-serif;
+    letter-spacing: 2px;
+  }
+  
+  header p {
+    color: #151f29; 
+    font-family: 'raleway', sans-serif;
+    letter-spacing: 7px;
+  }
+  .menu {
+      position: relative;
+      top: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      justify-content: space-between;
+      z-index: 1000; 
+  }
+  
+  
+  .header.container.navbar ul li{
+      position:absolute ;
+      float: right;
+  }
+  
+  .menu .navbar ul li{
+      font-size: 10px;
+      padding: 10px;
+      color: #ffff;
+      display: block;
+  }
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+img {
+    width: 200px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.purple-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    color: #f6f6f6;
+}
+
+
+.table-container{ /*Servicios*/
+    margin-bottom: 20px;
+  }
+
+  table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+
+  th{
+    background-color: #3c5f99;
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+    text-align: center;
+  }
+
+
+nav ul { /*de hipervinculos y nav*/
+    list-style: none;
+    display: flex;
+    background: #333;
+    color: #fff;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background: #fff;
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #ff0606;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background:#3c5f99;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

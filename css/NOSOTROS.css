@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*font-family: 'Bebas Neue', cursive;*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+header {
+background-color: #ffffff;
+padding: 5%;
+display: flex;
+justify-content: space-between; 
+}
+
+/*bannner sin turno*/
+.purple-banner {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 60px;
+    color: #ffffff;
+} 
+
+nav ul {
+list-style: none;
+display: flex;
+}
+    
+nav li {
+margin: 0 20px;
+}
+    
+nav a {
+text-decoration: none;
+color: #ffffff;
+}
+
+}
+body {
+    font-family:  'Poppins', sans-serif;
+    background-color: #3c5f99;
+}
+
+header {
+    background-image: url(/img/adn2.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 30vh;
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    width: 200px;
+}
+
+h1 p{
+    margin-left: 30px;
+    margin-bottom: 5%; 
+    font-family: poppins;
+    font-size: 3rem;
+    text-align: center;
+    background-color:#ffffff;
+    max-width: 3px;
+    line-height: 1;
+}
+header {
+  background-color: #ffff; 
+  padding: 40px;
+}
+
+h1 {
+  color: #f0f0f0;
+  font-family: 'raleway', sans-serif;
+  letter-spacing: 2px;
+}
+
+p {
+  color: #fafafa; 
+  font-family: 'raleway', sans-serif;
+  letter-spacing: 4px;
+}
+.menu {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000; 
+}
+
+
+.header.container.navbar ul li{
+    position:absolute ;
+    float: right;
+}
+
+.menu .navbar ul li{
+    font-size: 10px;
+    padding: 10px;
+    color: #ffff;
+    display: block;
+}
+
+* {
+    margin: 0;
+    
+    
+padding: 0;
+    box-sizing: border-box;
+}
+
+
+.table-container{ /*Nosotros*/
+    margin-bottom: 20px;
+  }
+
+  table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+
+  th{
+    background-color: #3c5f99;
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+    text-align: center;
+  }
+
+
+main {
+    
+position: relative; /* Necesario para la posición del texto */
+}
+
+.image-container {
+position: relative; /* Para el posicionamiento de los elementos dentro */
+}
+
+.full-width-image {
+    width: 100%;
+    
+    
+height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.overlay-text {
+    position: absolute; /* Para superponer el texto */
+    
+ 
+top: 50%; /* Centrar verticalmente */
+    
+ 
+left: 20px; /* Margen a la izquierda */
+    
+    
+transform: translateY(-50%); /* Centrar el texto verticalmente */
+    color: white; /* Color del texto */
+    
+background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejor legibilidad */
+    padding: 10px; /* Espaciado interno */
+
+    
+  
+border-radius: 5px; /* Esquinas redondeadas */
+}
+
+
+.imagen-texto {
+    float: left; /* O float: right; si prefieres que la imagen esté a la derecha */
+    margin-right: 30px; /* Espacio entre las imágenes */
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+  }
+  
+  .imagen-texto {
+    text-align: center; /* Centra el texto dentro de cada elemento */
+    margin: 30px; /* Añade un margen para separar los elementos */
+  }
+  
+  .imagen-texto img {
+    max-width: 80px; /* Asegura que la imagen no se desborde */
+    height: 0% auto;
+  }
+  
+  .imagen-texto p {
+    font-family: 'raleway', sans-serif; 
+    font-size: 15px; /* Ajusta el tamaño de la fuente */
+    letter-spacing: 0.1px;
+    line-height: 2;
+    color: #f0f0f0;
+  }
+
+  .imagen-texto h2{
+    font-family: 'raleway', sans-serif; 
+    font-size: 20px; /* Ajusta el tamaño de la fuente */
+    letter-spacing: 0.1px;
+    line-height: 2;
+    color: #f0f0f0;
+  }
+
+  .footer-txt {
+    text-align: center; /* Centrar el texto del footer */
+    color: #333; /* Color del texto */
+  }
